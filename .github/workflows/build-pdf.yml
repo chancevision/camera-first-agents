@@ -1,0 +1,32 @@
+name: build-pdf
+
+on:
+  push:
+    paths:
+      - "main.tex"
+      - "refs.bib"
+      - "figures/**"
+      - ".github/workflows/build-pdf.yml"
+  pull_request:
+    paths:
+      - "main.tex"
+      - "refs.bib"
+      - "figures/**"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile LaTeX (pdflatex + bibtex, same toolchain as arXiv)
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          args: -pdf -file-line-error -interaction=nonstopmode -halt-on-error
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: main-pdf
+          path: main.pdf

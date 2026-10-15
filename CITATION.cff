@@ -1,0 +1,72 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the arXiv version."
+title: "camera-first-agents: sources for 'How Should a Camera-First AI Agent Work?'"
+abstract: "LaTeX sources and figures for the camera-first agent position/contract paper."
+authors:
+  - family-names: Wu
+    given-names: Xiaofan
+    affiliation: Chance AI
+    email: xiaofan@chance.vision
+  - family-names: Zeng
+    given-names: Xi
+    affiliation: Chance AI
+  - family-names: Chen
+    given-names: Miaoxia
+    affiliation: Chance AI
+  - family-names: Chen
+    given-names: Peishan
+    affiliation: Chance AI
+  - family-names: Li
+    given-names: Shuyan
+    affiliation: Chance AI
+  - family-names: Wang
+    given-names: Chen
+    affiliation: Chance AI
+  - family-names: Wang
+    given-names: Xiaohan
+    affiliation: Chance AI
+  - family-names: Xu
+    given-names: Wanling
+    affiliation: Chance AI
+  - family-names: Yao
+    given-names: Jiyun
+    affiliation: Chance AI
+  - family-names: Zhong
+    given-names: Hanyong
+    affiliation: Chance AI
+  - family-names: Zhu
+    given-names: Jiahao
+    affiliation: Chance AI
+date-released: "2026-10-10"
+license: CC-BY-4.0
+preferred-citation:
+  type: article
+  title: "How Should a Camera-First AI Agent Work?"
+  authors:
+    - family-names: Wu
+      given-names: Xiaofan
+    - family-names: Zeng
+      given-names: Xi
+    - family-names: Chen
+      given-names: Miaoxia
+    - family-names: Chen
+      given-names: Peishan
+    - family-names: Li
+      given-names: Shuyan
+    - family-names: Wang
+      given-names: Chen
+    - family-names: Wang
+      given-names: Xiaohan
+    - family-names: Xu
+      given-names: Wanling
+    - family-names: Yao
+      given-names: Jiyun
+    - family-names: Zhong
+      given-names: Hanyong
+    - family-names: Zhu
+      given-names: Jiahao
+  year: 2026
+  url: "https://arxiv.org/abs/2610.14772"
+  identifiers:
+    - type: other
+      value: "arXiv:2610.14772"

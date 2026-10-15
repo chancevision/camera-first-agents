@@ -1,0 +1,22 @@
+# LaTeX build intermediates
+*.aux
+*.log
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.out
+*.xdv
+*.toc
+*.bcf
+*.run.xml
+
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+out/
+*.bbl

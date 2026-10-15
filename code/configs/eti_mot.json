@@ -1,0 +1,6 @@
+{
+  "mot_root": "data/mot17",
+  "fps": 30.0,
+  "max_dwell": 3.0,
+  "out": "out/eti_mot"
+}
